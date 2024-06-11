@@ -50,30 +50,3 @@ a { font-family: "Krona One", sans-serif;
 }
 .center1 { margin-top: 60%; margin-bottom: 40.0%; margin: 60% 0%;}
 .button:hover {transform: scale(1.08); transition: 0.32s;}
-.layers {
-	perspective: 1000px;
-	overflow: hidden;
-}
-.layers__container {
-	height: 100vh;
-	min-height: 500px;
-	transform-style: preserve-3d;
-	transform: rotateX(var(--move-y)) rotateY(var(--move-x));
-	will-change: transform;
-	transition: transform var(--transition);
-}
-.layers__item {
-	position: absolute;
-	inset: -5vw;
-	background-size: cover;
-	background-position: center;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.layer-1 {
-	transform: translateZ(-55px) scale(1.06);
-}
-.layer-2 {
-	transform: translateZ(80px) scale(.88);
-}
