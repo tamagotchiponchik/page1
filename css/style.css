@@ -44,6 +44,6 @@ a { font-family: "Krona One", sans-serif;
 }
 @font-face {
   font-family: "Krona One";
-  src: url(/fonts/KronaOne-Regular.ttf);
+  src: url(fonts/KronaOne-Regular.ttf);
 }
 .center1 { margin-top: 45.92%; margin-bottom: 44.85%; margin: 50% 0%;}
