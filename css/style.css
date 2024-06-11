@@ -11,7 +11,8 @@
 }
 body { text-align: center;}
 html {
-  background: url('back/BG.png') no-repeat center center;
+  background: url(https://raw.githubusercontent.com/aaaatamagotchi/page1/main/back/BG.png
+) no-repeat center center;
   min-height: 100%;
   background-size: cover;
 }
