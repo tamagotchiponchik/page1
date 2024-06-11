@@ -45,6 +45,6 @@ a { font-family: "Krona One", sans-serif;
 }
 @font-face {
   font-family: "Krona One";
-  src: url(fonts/KronaOne-Regular.ttf);
+  src: url(https://github.com/aaaatamagotchi/page1/raw/main/fonts/KronaOne-Regular.ttf);
 }
 .center1 { margin-top: 60%; margin-bottom: 40.0%; margin: 60% 0%;}
