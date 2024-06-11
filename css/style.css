@@ -42,9 +42,11 @@ a { font-family: "Krona One", sans-serif;
   border-radius: 32px; 
   border: 0.25px solid rgba(255, 255,255, 0.40); 
   text-align: center;
+  transition: 0.52s;
 }
 @font-face {
   font-family: "Krona One";
   src: url(https://github.com/aaaatamagotchi/page1/raw/main/fonts/KronaOne-Regular.ttf);
 }
 .center1 { margin-top: 60%; margin-bottom: 40.0%; margin: 60% 0%;}
+.button:hover {transform: scale(1.08); transition: 0.32s;}
