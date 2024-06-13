@@ -1,0 +1,135 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.krona-one-regular {
+  font-family: "Krona One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+:root {
+	--index: calc(1vw + 1vh);
+	--transition: 1.5s cubic-bezier(.05, .5, 0, 1);
+}
+body {
+  text-align: center;
+}
+html {
+  background: url(https://raw.githubusercontent.com/aaaatamagotchi/page1/main/back/BG.png
+) no-repeat center center;
+  min-height: 100%;
+  background-size: cover;
+  font-family: "Krona One";
+  color: white;
+}
+
+.img1 {
+  display: inline;
+  position: relative;
+  right: 155px
+}
+
+.balance {
+  font-size: 16px;
+  position: relative;
+  display: inline;
+  bottom: 27px;
+}
+
+.score {
+  display: inline;
+  position: relative;
+  font-size: 30px;
+  bottom: 17px;
+}
+
+.playlist {
+  margin-top: 10 px;
+  border: 1px solid #fff;
+  border-radius: 18px;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.22);
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 90% 10%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playlist__rn {
+  text-align: left;
+  font-size: 11px;
+}
+
+.playlist__img2 {
+  text-align: right;
+}
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: stretch;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 29px;
+  padding: 10px 0px;
+}
+
+.menu__home--text,
+.menu__tasks--text,
+.menu__skins--text,
+.menu__frens--text {
+  font-size: 12px;
+}
+
+.coin {
+  margin-top: 60px;
+  margin-bottom: 45px;
+}
+
+.coin__energy--border {
+  border-radius: 19px;
+  width: 358px;
+  height: 13px;
+  background: linear-gradient(270deg, #e84601 0%, #320d00 51.78%);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.coin__energy--zero {
+  display: inline-block;
+  width: 175px;
+  font-size: 16px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.coin__energy--full {
+  display: inline-block;
+  width: 175px;
+  font-size: 16px;
+  text-align: right;
+  margin-top: 5px;
+}
+
+.button:hover {transform: scale(1.08); transition: 0.32s;}
+.menu__home {opacity: 0.48; transition: 0.64s}
+.menu__home:hover {opacity: 0.90; transition: 0.32s}
+.menu__skins {opacity: 0.48; transition: 0.64s}
+.menu__skins:hover {opacity: 0.90; transition: 0.32s}
+.menu__frens {opacity: 0.48; transition: 0.64s}
+.menu__frens:hover {opacity: 0.90; transition: 0.32s}
+.menu__tasks {opacity: 0.48; transition: 0.64s}
+.menu__tasks:hover {opacity: 0.90; transition: 0.32s}
+.svg__button:hover {transform: scale(1.03); transition: 0.32s;}
+.svg__button {transform: scale(1.00); transition: 0.32s;}
+.coin__energy {margin-left: 0px;
+margin-right: 0px;}
+.playlist {
+  opacity: 0; 
+  transition: opacity 2s ease-in-out; 
+  display: block; 
+}
